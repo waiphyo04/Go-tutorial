@@ -1,0 +1,12 @@
+{
+    "name": "go-project",
+    "image": "mcr.microsoft.com/devcontainers/go:latest",
+    "customizations": {
+      "vscode": {
+        "settings": {},
+        "extensions": ["golang.go"]
+      }
+    },
+    "postCreateCommand": "go mod init hello-world"
+  }
+  
